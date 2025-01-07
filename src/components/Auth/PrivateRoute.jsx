@@ -8,7 +8,7 @@ const PrivateRoute = ({ children, allowedRoles }) => {
   }
 
   if (!allowedRoles.includes(user.vaitro)) {
-    return <Navigate to="/unauthorized" />;
+    return <Navigate to="/login" />;
   }
 
   return children;
