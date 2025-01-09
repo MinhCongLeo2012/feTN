@@ -14,23 +14,23 @@ const levelOptions = [
 ];
 
 const subjectMapping = {
-  'TOAN': 'TOAN',
-  'VLY': 'VLY',
-  'HOA': 'HOA',
-  'SINH': 'SINH',
-  'MT': 'MT',
-  'TIN': 'TIN',
-  'VAN': 'VAN',
-  'NN1': 'NN1',
-  'NN2': 'NN2', 
-  'SU': 'SU',
-  'DIA': 'DIA',
-  'CN': 'CN',
-  'GDTC': 'GDTC',
-  'AN': 'AN',
-  'GDQPAN': 'GDQPAN',
-  'GDKTPL': 'GDKTPL',
-  'TDTTS': 'TDTTS'
+  'Toán': 'TOAN',
+  'Vật lý': 'VLY',
+  'Hóa học': 'HOA',
+  'Sinh học': 'SINH',
+  'Âm nhạc': 'AN',
+  'Mĩ thuật': 'MT',
+  'Tin học': 'TIN',
+  'Ngữ văn': 'VAN',
+  'Ngoại ngữ 1': 'NN1',
+  'Ngoại ngữ 2': 'NN2', 
+  'Lịch sử': 'SU',
+  'Địa lý': 'DIA',
+  'Công nghệ': 'CN',
+  'Giáo dục thể chất': 'GDTC',
+  'Giáo dục quốc phòng và an ninh': 'GDQPAN',
+  'Giáo dục kinh tế và pháp luật': 'GDKTPL',
+  'Tiếng dân tộc thiểu số': 'TDTTS'
 };
 
 // Thêm constant cho mapping giữa display text và database value
